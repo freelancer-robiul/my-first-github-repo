@@ -18,15 +18,16 @@ body{
     background-size: cover;
 }
 
-.header-text{
-    padding: 333px 284px 333px;
+.header-text {
+    padding: 466px 332px 670px;
     text-align: center;
-    color: yellowgreen;
+    color: #323ecd;
 }
 
-.header-text h1{
-    font-size: 50px;
-    margin-bottom: 10px;
+.header-text h1 {
+    font-size: 94px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
 .header{
@@ -74,7 +75,7 @@ body{
 .left-text{
     width: 40%;
     margin: 0 auto;
-    margin-top: 9%;
+    margin-top: 5%;
     text-align: center;
 }
 
@@ -86,12 +87,47 @@ body{
     margin-bottom: 10px;
 }
 
+.left-text a{
+    text-decoration: none;
+    background-color: antiquewhite;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: black;
+    
+}
+
 .right-image{
    width: 50%;
 }
 
 .right-image img{
-    width: 100%;
-    height: 600px;
+    width: 90%;
+    height: 550px;
+    border-radius: 5px;
+}
+
+.section-3{
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
+}
+
+.section-3 h2 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+
+.section-3-img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 50px;
+}
+
+.section-3 img{
+    width: 30%;
+    height: 700px;
     border-radius: 5px;
 }
