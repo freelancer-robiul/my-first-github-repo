@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-section{
+    background-image: url(../images/Coffee-photo-1506372023823-741c83b836fe.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-text{
+    padding: 400px;
+    text-align: center;
+    color: white;
+}
+
+.header-text h1{
+    font-size: 50px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo{
+    width: 300px;
+    margin-left: 20px;
+}
+
+.header-logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.header-menu{
+    width: 500px;
+}
+
+.header-menu ul{
+    display: flex;
+    list-style: none;
+}
