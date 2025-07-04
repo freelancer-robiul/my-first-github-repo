@@ -63,6 +63,9 @@
                         <p><b>Taste Profile:</b> Smooth and creamy with a bold coffee kick and a frothy top.</p><br>
                         <p><b>Perfect For:</b> Morning relaxation or a cozy café moment.</p><br>
                         <button id="btn-espre"><a href="#">Order Now</a></button>
+                        <div class="single-order">
+                            <button><a href="#">Learn More</a></button>
+                        </div>
                 </div>
 
                 <div class="single-image2">
@@ -73,29 +76,37 @@
                         <p><b>Taste Profile:</b> Mild, milky, and slightly sweet.</p><br>
                         <p><b>Perfect For:</b> Beginners or those who prefer a lighter coffee experience.</p><br>
                         <button id="btn-latte"><a href="#">Order Now</a></button>
+                        <div class="single-order">
+                            <button><a href="#">Learn More</a></button>
+                        </div>
                 </div>
             </div>
 
             <div class="contact-form">
+                <h2>Contact Us</h2>
                 <form action="#">
                     <input type="text" name="fname" placeholder="First Name"><br>
                     <input type="text" name="lname" placeholder="Last Name"><br>
                     <input type="email" name="email" placeholder="Email"><br>
                     <input type="number" name="pnumber" placeholder="Phone Number"><br>
-                    <input type="checkbox" name="mel">Mel<br>
-                    <input type="checkbox" name="femel">Femel<br>
-                    <h4>Select your choice</h4>
-                    <select>
-                        <option>Espresso</option>
-                        <option>Cappuccino</option>
-                        <option>Caffè Latte</option>
-                        <option>Mocha</option>
-                    </select>
+                    
+                    <p>Mel<input type="checkbox" name="mel"></p>
+                    <p>Femel<input type="checkbox" name="femel"></p>
+                    <h4>Select your choice:</h4>
+                    <select id="select-c" placeholder="select">
+                        <option value="">--Select--</option>
+                        <option value="Es">Espresso</option>
+                        <option value="Capp">Cappuccino</option>
+                        <option value="Caffe">Caffè Latte</option>
+                        <option value="Mo">Mocha</option>
+                    </select><br>
                     <input type="button" value="Submit">
                 </form>
             </div>
         </div>
 
     </div>
+
+
 </body>
 </html>
