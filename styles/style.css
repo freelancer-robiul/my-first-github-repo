@@ -24,8 +24,21 @@ body{
     color: #323ecd;
 }
 
+#btn-a{
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#btn-a a{
+    text-decoration: none;
+    padding: 12px 50px;
+    display: inline-block;
+    color: red;
+}
+
 .header-text h1 {
-    font-size: 94px;
+    font-size: 92px;
     margin-bottom: 15px;
     text-transform: uppercase;
 }
@@ -93,7 +106,7 @@ body{
     padding: 10px 30px;
     border-radius: 5px;
     color: black;
-    
+    display: inline-block;
 }
 
 .right-image{
@@ -130,4 +143,46 @@ body{
     width: 30%;
     height: 700px;
     border-radius: 5px;
+}
+
+
+/*-------------------- SECTION-4 ----------------------------------*/
+
+.section-4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-card{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.single-image1, .single-image2{
+    width: 50%;
+}
+
+
+.single-image1, .single-image2{
+    margin-left: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+.single-image1 img, .single-image2 img{
+    width: 500px;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.single-image1 h3, .single-image2 h3{
+    margin-bottom: 10px;
+}
+
+
+.contact-form{
+    width: 30%;
 }
