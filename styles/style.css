@@ -16,6 +16,7 @@ body{
     background-image: url(../images/Coffee-photo-1506372023823-741c83b836fe.avif);
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit: cover;
 }
 
 .header-text {
@@ -145,6 +146,7 @@ body{
     justify-content: space-between;
     margin-top: 15px;
     padding: 50px;
+    object-fit: cover;
 }
 
 .section-3 img{
@@ -215,6 +217,7 @@ body{
     height: 500px;
     margin-top: 10px;
     margin-bottom: 10px;
+    object-fit: cover;
 }
 
 .single-image1 h3, .single-image2 h3{
