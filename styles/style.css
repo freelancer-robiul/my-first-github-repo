@@ -61,6 +61,7 @@ body{
     height: 100px;
     border-radius: 50%;
     box-shadow: 5px 5px 55px yellow;
+    margin-top: 6px;
 }
 
 .header-menu{
@@ -77,6 +78,12 @@ body{
     color: red;
     cursor: pointer;
     font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.header-menu ul li:hover{
+    color: greenyellow;
 }
 
 .hero-section{
@@ -231,6 +238,11 @@ body{
     border-radius: 5px;
 }
 
+#btn-espre a:hover, #btn-latte a:hover{
+    color: white;
+    background-color: green;
+}
+
 .contact-form{
     width: 30%;
     padding: 20px;
@@ -275,9 +287,49 @@ input[type="checkbox"]{
 }
 
 input[type="button"]{
-    width: 40%;
+    width: 30%;
     margin-top: 30px;
     background-color: gray;
     color: red;
     cursor: pointer;
+}
+
+input[type="button"]:hover{
+    color: white;
+    background-color: green;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 100px;
+    margin-top: 50px;
+}
+
+.part-1, .part-2, .part-3{
+    width: 33%;
+}
+
+.part-1 ul li, .part-3 ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+
+.part-3{
+    margin-right: 30px;
+    text-align: right;
+}
+
+.footer-reserve{
+    background-color: rgb(55, 49, 49);
+}
+
+.footer-reserve p{
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-size: 12px;
 }
